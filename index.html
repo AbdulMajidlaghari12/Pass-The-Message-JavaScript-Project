@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Pass The Message JavaScript Project</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="flex flex-col items-center justify-center h-screen bg-gray-100 text-center">
+  <h1 class="text-3xl font-bold mb-8">A Messge You Would Like To Pass</h1>
+  <div class="w-1/2 bg-white rounded-lg shadow-md p-8 mb-8">
+    <label for="message" class="block font-medium mb-2">Enter your message:</label>
+    <input id="message" type="text" class="w-full border border-gray-400 rounded py-2 px-3 mb-4 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="Type your message here">
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" type="submit">Submit</button>
+  </div>
+  <div class="w-1/2 bg-white rounded-lg shadow-md p-8">
+    <h2 class="text-xl font-medium mb-4">Message:</h2>
+      <p id="messageDisplay" class="mb-2">Your Message display Here</p>
+  </div>
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
